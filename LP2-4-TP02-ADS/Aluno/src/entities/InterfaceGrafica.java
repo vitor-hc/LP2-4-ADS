@@ -95,10 +95,11 @@ public class InterfaceGrafica implements ActionListener {
 		if("Mostrar".equals(x)) {
 		
                     String mensagem = "";
-                        
-			for (Aluno usuario : alunos) {
                         mensagem +="Resultado";
                         mensagem += "\n";
+			for (Aluno usuario : alunos) {
+                        
+                       
 			mensagem += "id: " +  usuario.getUuid() + "";
 			mensagem += " Nome: " + usuario.getNome() + "";
 			mensagem += "\n";
